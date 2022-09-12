@@ -4,7 +4,7 @@
 *
 * Description: using the main function
 * this program prints "Programing is positive, zero, or negative
-* Return: 0 
+* Return: 0
 */
 int main(void)
 {

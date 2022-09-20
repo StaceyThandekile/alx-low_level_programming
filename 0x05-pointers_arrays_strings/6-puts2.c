@@ -2,15 +2,15 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character
- * @str: string
- *
+ * puts2 - prints every other character 
+ * @str: string 
+ * 
  * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int i = o;
+	int i = 0;
 
 	while (*(str + i) != '\0')
 	{

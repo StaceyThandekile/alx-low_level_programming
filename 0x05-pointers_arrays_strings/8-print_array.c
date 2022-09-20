@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
-* print_array - prints n element of arrays
+* print_array - prints n element of array
 * @a: array
 * @n: number of elements
-* Return: nothing 
+* Return: nothing
 */
 
 void print_array(int *a, int n)
@@ -21,3 +21,4 @@ void print_array(int *a, int n)
 	}
 	putchar(10);
 }
+

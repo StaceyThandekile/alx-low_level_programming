@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - write a program that prints the number of arguments passed into it
  *

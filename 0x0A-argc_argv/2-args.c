@@ -1,20 +1,28 @@
-#include <stdio.d>
+#include <stdio.h>
+#include "main.h"
 
 /**
- * main - poins all arguments it receives
- * @argc: number of arguments paased to the function 
- * @argv: argument vecto of pointers to strings
+ * main - Print the name of the progra
+ * @argc: Count arguments
+ * @argv: Arguments
  *
- * Return: always 0
- */ 
-int main (int argc, char *argv[])
+ * Return: Always 0 (Success)
+ */
+
+int main(int argc, char *argv[])
 {
-	int i;
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
-	return (0);
+/*Declaring variables*/
+int count = 0;
+
+if (argc > 0)
+{
+/*WHILE - Print each arguments*/
+while (count < argc)
+{
+printf("%s\n", argv[count]);
+count++;
 }
-
+}
+return (0);
+}

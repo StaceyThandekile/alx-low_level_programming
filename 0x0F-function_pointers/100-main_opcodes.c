@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
-		printf("Erro\n");
+		printf("Error\n");
 		exit(2);
 	}
 

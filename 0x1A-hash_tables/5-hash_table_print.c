@@ -1,4 +1,4 @@
-#include "./hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_print - Prints a hash table.
@@ -24,7 +24,7 @@ void hash_table_print(const hash_table_t *ht)
 			if (comma_flag == 1)
 				printf(", ");
 
-			node = ht->array[i];
+			printf(", ");
 			while (node != NULL)
 			{
 				printf("'%s': '%s'", node->key, node->value);
